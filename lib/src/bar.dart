@@ -42,7 +42,7 @@ const double CURVE_TOP = -25;
 const double ACTION_LAYOUT_SIZE = 60;
 
 /// Default size for active icon in tab.
-const double ACTION_INNER_BUTTON_SIZE = 40;
+const double ACTION_INNER_BUTTON_SIZE = 25;
 
 /// Default elevation of [ConvexAppBar].
 const double ELEVATION = 2;
