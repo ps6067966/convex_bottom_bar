@@ -42,7 +42,7 @@ const double CURVE_TOP = -25;
 const double ACTION_LAYOUT_SIZE = 60;
 
 /// Default size for active icon in tab.
-const double ACTION_INNER_BUTTON_SIZE = 25;
+const double ACTION_INNER_BUTTON_SIZE = 32;
 
 /// Default elevation of [ConvexAppBar].
 const double ELEVATION = 2;
@@ -369,6 +369,7 @@ class ConvexAppBar extends StatefulWidget {
 class ConvexAppBarState extends State<ConvexAppBar>
     with TickerProviderStateMixin {
   int? _currentIndex;
+
   /// get index
   int? get currentIndex => _currentIndex;
   int _warpUnderwayCount = 0;
